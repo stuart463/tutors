@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Request | Peer Tutors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Submit Tutoring Request</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="view_requests.php">View Requests</a>
+            <a href="logout.php">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <form action="submit_request.php" method="post">
+            <label>Subject: <input type="text" name="subject" required></label><br>
+            <label>Description:<br>
+                <textarea name="description" rows="4" cols="50" required></textarea>
+            </label><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
